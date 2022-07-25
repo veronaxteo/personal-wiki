@@ -1,0 +1,169 @@
+{
+  "main": {
+    "id": "89607367acf80e86",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bf0771f79f3a0b7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "recruiting/behavioral q prep.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22aea435651b253f",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5075f89448d076d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a365c2d84e895dd0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c7408190324f38a9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "956301c34a30b38f",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 180.5
+  },
+  "right": {
+    "id": "adb4d02756ce0352",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4c36fdc893f3e38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f595eb4d13a91cb0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "recruiting/behavioral q prep.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7d9e1aa1f953cb25",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "recruiting/behavioral q prep.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "48961bac20274290",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0afe93fa7b5f0594",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "recruiting/behavioral q prep.md"
+              }
+            }
+          },
+          {
+            "id": "d746901c1ab4b28d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "96e19de002ada267",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "cd50cfcbee511cda",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 219.5,
+    "collapsed": true
+  },
+  "active": "5bf0771f79f3a0b7",
+  "lastOpenFiles": [
+    "neuroscience/the-body-keeps-the-score.md",
+    "data structures/linked-lists.md",
+    "data structures/hash-tables.md",
+    "recruiting/coffee chats.md",
+    "recruiting/leetcode - 1.md",
+    "recruiting/leetcode - 2.md",
+    "recruiting/leetcode - 3.md",
+    "recruiting/leetcode to-do.md",
+    "recruiting/leetcode progress.md",
+    "recruiting/behavioral q prep.md"
+  ]
+}
