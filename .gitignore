@@ -1,0 +1,6 @@
+# ignore mac system files
+.DS_Store
+
+# ignore private folders/files
+recruiting
+
