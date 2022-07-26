@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "recruiting/behavioral q prep.md",
+            "file": "data structures/common functions.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "recruiting/behavioral q prep.md",
+                "file": "data structures/common functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "recruiting/behavioral q prep.md",
+                "file": "data structures/common functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "recruiting/behavioral q prep.md"
+                "file": "data structures/common functions.md"
               }
             }
           },
@@ -153,17 +153,17 @@
     "width": 219.5,
     "collapsed": true
   },
-  "active": "5bf0771f79f3a0b7",
+  "active": "a365c2d84e895dd0",
   "lastOpenFiles": [
+    "python functions.md",
+    "README.md",
+    "data structures/common functions.md",
+    "recruiting/behavioral q prep.md",
     "neuroscience/the-body-keeps-the-score.md",
     "data structures/linked-lists.md",
     "data structures/hash-tables.md",
     "recruiting/coffee chats.md",
     "recruiting/leetcode - 1.md",
-    "recruiting/leetcode - 2.md",
-    "recruiting/leetcode - 3.md",
-    "recruiting/leetcode to-do.md",
-    "recruiting/leetcode progress.md",
-    "recruiting/behavioral q prep.md"
+    "recruiting/leetcode - 2.md"
   ]
 }
