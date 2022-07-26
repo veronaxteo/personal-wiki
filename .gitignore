@@ -1,2 +1,5 @@
 # ignore mac system files
 .DS_Store
+
+# ignore obsidian images
+images
