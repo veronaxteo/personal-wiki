@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "data-structures/complexity cheat sheet.md",
+            "file": "data-structures/complexity-cheat-sheet.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data-structures/complexity cheat sheet.md",
+                "file": "data-structures/complexity-cheat-sheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data-structures/complexity cheat sheet.md",
+                "file": "data-structures/complexity-cheat-sheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data-structures/complexity cheat sheet.md"
+                "file": "data-structures/complexity-cheat-sheet.md"
               }
             }
           },
@@ -153,8 +153,10 @@
     "width": 219.5,
     "collapsed": true
   },
-  "active": "5bf0771f79f3a0b7",
+  "active": "a365c2d84e895dd0",
   "lastOpenFiles": [
+    "data-structures/common-functions.md",
+    "data-structures/complexity-cheat-sheet.md",
     "data structures/images/array_sorting_complexity.png",
     "data structures/images/power_of_two.png",
     "data structures/images/recursive_ex1.png",
@@ -162,8 +164,6 @@
     "data structures/example_problems/Screen Shot 2022-07-22 at 18.16.51.png",
     "data structures/example_problems/Screen Shot 2022-07-22 at 17.21.59.png",
     "data structures/common functions.md",
-    "python functions.md",
-    "README.md",
-    "recruiting/behavioral q prep.md"
+    "python functions.md"
   ]
 }
