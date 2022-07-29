@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "6.802-foundations-of-computational-and-systems-biology.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "6.802-foundations-of-computational-and-systems-biology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "6.802-foundations-of-computational-and-systems-biology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "6.802-foundations-of-computational-and-systems-biology.md"
               }
             }
           },
@@ -155,15 +155,15 @@
   },
   "active": "5bf0771f79f3a0b7",
   "lastOpenFiles": [
-    "data-structures/complexity-cheat-sheet.md",
-    "data-structures/common-functions.md",
-    "data structures/images/array_sorting_complexity.png",
-    "data structures/images/power_of_two.png",
-    "data structures/images/recursive_ex1.png",
-    "data structures/images/import_ds&a.png",
-    "data structures/example_problems/Screen Shot 2022-07-22 at 18.16.51.png",
-    "data structures/example_problems/Screen Shot 2022-07-22 at 17.21.59.png",
-    "data structures/common functions.md",
-    "python functions.md"
+    "writing/academic-writing/aesthetics/saito-everyday-aesthetics.md",
+    "writing/academic-writing/aesthetics/noe-strange-tools-general-form-of-art.md",
+    "writing/academic-writing/aesthetics/dewey-integral-experience.md",
+    "writing/academic-writing/aesthetics/kant-critique-of-judgement.md",
+    "writing/academic-writing/philosophy-of-mind/identity-thesis-kripke.md",
+    "writing/academic-writing/philosophy-of-mind/jonas-cybernetics-and-purpose.md",
+    "writing/academic-writing/philosophy-of-mind/nagel-what-is-it-like-to-be-a-bat.md",
+    "data-structures/arraylist.md",
+    "writing/academic-writing/ethical-theories/independence-of-personal-pov-williams-scheffler-korsgaard.md",
+    "writing/academic-writing/ethical-theories/kant-good-will.md"
   ]
 }
