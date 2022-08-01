@@ -1,4 +1,4 @@
-# jurafsy and martin *speech and language processing* (3rd ed.) - chapter 3 notes
+# chapter 3 - n-grams
 
 ## key concepts & words
 language model, n-gram, maximum likelihood estimate, perplexity, smoothing, backoff, interpolation, discounting, kneser-ney, continuation
@@ -44,7 +44,7 @@ language model, n-gram, maximum likelihood estimate, perplexity, smoothing, back
 	- $P(w_n|w_{1:n-1}) \approx P(w_n|w_{n-N+1:n-1})$
 
 
-***how we do estimate these n-gram probabilities?***
+#### how we do estimate these n-gram probabilities?
 - **maximum likelihood estimation (MLE)** - get MLE estimate for parameters of an n-gram model by getting counts from a corpus and **normalizing** the counts so that they lie between 0 and 1
 
 general case of MLE n-gram parameter estimation:
@@ -56,7 +56,7 @@ where $C(w_{n-1}w_n)$ is the count of the bigram
 - **relative frequency** - dividing observed frequency of particular sequence by observed frequency of a prefix
 
 
-***some practical issues***:
+#### some practical issues:
 - for larger n-grams (4-grams, 5-grams), need to assume extra context to left and right of sentence end
 - always represent and compute language model probabilities in log format as **log probabilities**
 	- since probabilities are <= 1, the more probabilities we multiple together, the smaller the product becomes --> potential numerical underflow
@@ -73,7 +73,7 @@ where $C(w_{n-1}w_n)$ is the count of the bigram
 	- usually 80% training, 10% development, 10% test
 
 
-#### perplexity
+### perplexity
 - **perplexity (PP)** - perplexity of language model on a test set is the *inverse probability of the test set, normalized by number of words*
 	- high conditional probability of word sequence = lower perplexity
 	- thus, minimizing perplexity == maximizing test set probability
@@ -88,7 +88,7 @@ where $C(w_{n-1}w_n)$ is the count of the bigram
 	- perplexity as a quick check
 
 
-### sampling sentences from a language model
+## sampling sentences from a language model
 - **sampling** from a distribution means to choose random points according to their likelihood
 - more likely to generate sentences that model thinks have high probability
 
@@ -98,7 +98,7 @@ where $C(w_{n-1}w_n)$ is the count of the bigram
 - the longer the context for training, the more coherent the sentences
 - use training corpus that has a similar genre to task we are trying to accomplish, as well as appropriate dialect or variety
 
-#### some problems
+### some problems
 - **sparsity**, **zeros** (things that don't occur in training set but do in test set)
 
 - **closed vocabulary** - know all words that can occur, no unknown words
@@ -110,7 +110,7 @@ where $C(w_{n-1}w_n)$ is the count of the bigram
 - motivation: we want to keep model from assigning 0 probability to unseen events (e.g. words in vocabulary but appear in test set in unseen context)
 - **smoothing (discounting)** - decrease probability mass from some more frequent events and give it to events never seen
 
-#### laplace smoothing
+### laplace smoothing
 - add one to all n-gram counts before normalizing them into probabilities
 	- which is why it's also known as **add-one** smoothing
 - does not perform well so not used in modern n-gram models, but gives useful baseline and is also practical for other tasks like text classification
@@ -120,7 +120,7 @@ $P_{Laplace}(w_n|w_{1:n-1}) = \dfrac {C(w_{n-1} w_n)+1}{C(w_{n-1})+ V}$
 for V words in vocabulary
 
 
-#### add-k smoothing
+### add-k smoothing
 - instead of adding 1 to each count, we add a fractional count $k$
 - requires we have a method for choosing $k$, e.g. by optimizing on devset
 - still doesn't work well for most tasks (okay for text classification)
@@ -128,7 +128,7 @@ for V words in vocabulary
 $P_{Add-k}(w_n|w_{1:n-1}) = \dfrac {C(w_{n-1} w_n)+k}{C(w_{n-1})+kV}$
 
 
-#### back-off and interpolation
+### back-off and interpolation
 - sometimes, using less context is a good thing to help us generalize more for contexts that model has not learned much about
 - **backoff** - use trigram if evidence is sufficient, otherwise bigram, otherwise unigram
 	- only "back off" to lower-order n-gram if have 0 evidence for high-order n-gram
