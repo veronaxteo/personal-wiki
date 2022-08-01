@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "6.802-foundations-of-computational-and-systems-biology.md",
+            "file": "natural-language-processing/speech-and-language-processing/ch3-speech-and-language-processing.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 180.5
+    "width": 182.5
   },
   "right": {
     "id": "adb4d02756ce0352",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6.802-foundations-of-computational-and-systems-biology.md",
+                "file": "natural-language-processing/speech-and-language-processing/ch3-speech-and-language-processing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6.802-foundations-of-computational-and-systems-biology.md",
+                "file": "natural-language-processing/speech-and-language-processing/ch3-speech-and-language-processing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6.802-foundations-of-computational-and-systems-biology.md"
+                "file": "natural-language-processing/speech-and-language-processing/ch3-speech-and-language-processing.md"
               }
             }
           },
@@ -155,15 +155,15 @@
   },
   "active": "5bf0771f79f3a0b7",
   "lastOpenFiles": [
-    "writing/academic-writing/aesthetics/saito-everyday-aesthetics.md",
-    "writing/academic-writing/aesthetics/noe-strange-tools-general-form-of-art.md",
-    "writing/academic-writing/aesthetics/dewey-integral-experience.md",
-    "writing/academic-writing/aesthetics/kant-critique-of-judgement.md",
+    "natural-language-processing/sentence-transformers-applications.md",
+    "natural-language-processing/retrieve-rerank-pipeline.png",
     "writing/academic-writing/philosophy-of-mind/identity-thesis-kripke.md",
     "writing/academic-writing/philosophy-of-mind/jonas-cybernetics-and-purpose.md",
-    "writing/academic-writing/philosophy-of-mind/nagel-what-is-it-like-to-be-a-bat.md",
-    "data-structures/arraylist.md",
-    "writing/academic-writing/ethical-theories/independence-of-personal-pov-williams-scheffler-korsgaard.md",
-    "writing/academic-writing/ethical-theories/kant-good-will.md"
+    "explorations/README 1.md",
+    "README.md",
+    "computational-biology/6.802-foundations-of-computational-and-systems-biology.md",
+    "writing/academic-writing/aesthetics/saito-everyday-aesthetics.md",
+    "writing/academic-writing/aesthetics/noe-strange-tools-general-form-of-art.md",
+    "writing/academic-writing/aesthetics/dewey-integral-experience.md"
   ]
 }
